@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Section 04 exercise 38</title>
+</head>
+<body>
+	<h1>Register</h1>
+	<form>
+		<label>First Name:<input type="Text" placeholder="First name eg: John" name="FName" required></label>
+		<label>Last Name:<input type="Text" placeholder="Last name eg: Smith" name="FName" required></label>
+
+		<div>
+			<label>Male<input type="Radio" value="male" name="Gender"></label>
+			<label>Female<input type="Radio" value="female" name="Gender"></label>
+			<label>Other<input type="Radio" value="other" name="Gender"></label>
+		</div>
+		
+		<div>
+			<label>Email <input type="Email" placeholder="your email" name="Email" required></label>
+			<label>Password <input type="Password" placeholder="your Password" name="Password" pattern=".{5,10}" required title="5 to 10 characters" required></label>
+		</div>
+		
+		<div>
+			<label for="birth-date">Birthday</label>
+			<select name="day" id="birth-date">
+				<option>Day</option>
+			</select>
+			<select name="month" id="birth-date">
+				<option>Month</option>
+			</select>
+			<select name="year" id="birth-date">
+				<option>Year</option>
+			</select>
+		</div>
+		
+		<div>
+			<label>I agree to the terms and conditions <input type="checkbox" name="termsConditions"> </label>
+		</div>
+		
+		<button>Send</button>
+
+
+	</form>
+</body>
+</html>
