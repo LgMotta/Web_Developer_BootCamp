@@ -1,0 +1,46 @@
+
+table{
+	margin:auto;
+}
+
+th{
+	height: 100px;
+	width: 100px;
+}
+
+h1{
+	font-size: 48px;
+	text-align: center;
+	color: blue;
+}
+
+
+.vertical{
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+}
+
+.horizontal{
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
+.left{
+	border-right: 2px solid black;
+}
+
+.right{
+	border-left: 2px solid black; 
+}
+
+.middle{
+	border: 2px solid black;
+}
+
+.top{
+	border-bottom: 2px solid black;
+}
+
+.bottom{
+	border-top: 2px solid black;
+}
